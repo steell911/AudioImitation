@@ -1,5 +1,5 @@
 # Simple OpenAL example
-![Powered by steell911](https://github.com/steell911/logo/blob/master/steell911_logo_2.png?raw=true)
+![Powered by steell911](https://github.com/steell911/logo/blob/master/steell911_logo_3.png?raw=true)
 ### Introduction
 This repository contains a small working OpenAL example. In this example you can play *.wav file and set source position
 
