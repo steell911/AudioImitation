@@ -6,32 +6,15 @@
 **************************************************************************/
 //	date: 22.01.2018
 
-#include <cstdlib>
-#include <iostream>
-#include <fstream>
 #include <string>
-#include <windows.h>
-#include <AL/al.h>
-#include <AL/alc.h>
-#include <AL/alut.h>
 #include "converter.h"
 #include "audio.h"
 #include "wavreader.h"
-#include "cmath"
 
 using namespace std;
 
-struct SndInfo
-{
-    unsigned int ID;
-    string Filename;
-    unsigned int Rate;
-    unsigned int Format;
-};
-
 snd::Audio audio;
 reader::WavReader wavReader;
-
 
 int main(int argc, char* argv[])
 {
